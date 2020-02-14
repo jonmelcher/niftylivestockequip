@@ -22,45 +22,7 @@
         <title>
             cattle feeding, cake feeder system, livestock handling equipment and livestock identification- Nifty Livestock Equipment - Canada, United States, Australia
         </title>
-        <script>
-            image1on = new Image();
-            image1on.src = "images/about2.gif";
-            image1off = new Image();
-            image1off.src = "images/about1.gif";
-
-            image2on = new Image();
-            image2on.src = "images/feed2.gif";
-            image2off = new Image();
-            image2off.src = "images/feed1.gif";
-
-            image3on = new Image();
-            image3on.src = "images/id2.gif";
-            image3off = new Image();
-            image3off.src = "images/id1.gif";
-
-            image4on = new Image();
-            image4on.src = "images/hand2.gif";
-            image4off = new Image();
-            image4off.src = "images/hand1.gif";
-
-            image5on = new Image();
-            image5on.src = "images/deal2.gif";
-            image5off = new Image();
-            image5off.src = "images/deal1.gif";
-
-            image6on = new Image();
-            image6on.src = "images/cont2.gif";
-            image6off = new Image();
-            image6off.src = "images/cont1.gif";
-
-            function turnOn(imageName) {
-                document[imageName].src = eval(imageName + "on.src");
-            }
-
-            function turnOff(imageName) {
-                document[imageName].src = eval(imageName + "off.src");
-            }
-        </script>
+        <script src="js/imageOnOff.js"></script>
         <style>
             body {
                 background-color: #fff;
@@ -86,32 +48,32 @@
             <tr>
                 <td width="125" background="images/nav.jpg" valign="top">
                     <font face="Arial">
-                        <a href="about.html" onMouseOver="turnOn('image1')" onMouseOut="turnOff('image1')">
+                        <a href="about.html" onmouseover="turnOn('image1')" onmouseout="turnOff('image1')">
                             <img name="image1" src="images/about1.gif" alt="About Nifty)" border="0" width="115" height="40">
                         </a>
                         <br />
                         <br />
-                        <a href="feed.html" onMouseOver="turnOn('image2')" onMouseOut="turnOff('image2')">
+                        <a href="feed.html" onmouseover="turnOn('image2')" onmouseout="turnOff('image2')">
                             <img name="image2" src="images/feed1.gif" alt="Feed Equipment)" border="0" width="115" height="40">
                         </a>
                         <br />
                         <br />
-                        <a href="lid.html" onMouseOver="turnOn('image3')" onMouseOut="turnOff('image3')">
+                        <a href="lid.html" onmouseover="turnOn('image3')" onmouseout="turnOff('image3')">
                             <img name="image3" src="images/id1.gif" alt="Livestock ID)" border="0" width="115" height="40">
                         </a>
                         <br />
                         <br />
-                        <a href="hand.html" onMouseOver="turnOn('image4')" onMouseOut="turnOff('image4')">
+                        <a href="hand.html" onmouseover="turnOn('image4')" onmouseout="turnOff('image4')">
                             <img name="image4" src="images/hand1.gif" alt="Handling Equipment)" border="0" width="115" height="40">
                         </a>
                         <br />
                         <br />
-                        <a href="deal.html" onMouseOver="turnOn('image5')" onMouseOut="turnOff('image5')">
+                        <a href="deal.html" onmouseover="turnOn('image5')" onmouseout="turnOff('image5')">
                             <img name="image5" src="images/deal1.gif" alt="Dealers Page)" border="0" width="115" height="40">
                         </a>
                         <br />
                         <br />
-                        <a href="contact.html" onMouseOver="turnOn('image6')" onMouseOut="turnOff('image6')">
+                        <a href="contact.html" onmouseover="turnOn('image6')" onmouseout="turnOff('image6')">
                             <img name="image6" src="images/cont1.gif" alt="Contact Us)" border="0" width="115" height="40">
                         </a>
                     </font>
